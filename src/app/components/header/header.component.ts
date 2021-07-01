@@ -10,14 +10,14 @@ export class HeaderComponent implements OnInit {
   browserLang : any;
   constructor(  
     public translate: TranslateService) {  
-    translate.addLangs(['en', 'fr']);
+    translate.addLangs(['English', 'French']);
 
     if (localStorage.getItem('locale')) {  
       this. browserLang = localStorage.getItem('locale');  
-      translate.use(this.browserLang.match(/en|fr/) ? this.browserLang : 'en');  
+      translate.use(this.browserLang.match(/English|French/) ? this.browserLang : 'English');  
     } else {  
-      localStorage.setItem('locale', 'en');  
-      translate.setDefaultLang('en');  
+      localStorage.setItem('locale', 'English');  
+      translate.setDefaultLang('English');  
     }  
   }  
   changeLang(language: string) {  

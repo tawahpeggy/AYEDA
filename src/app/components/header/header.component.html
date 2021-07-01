@@ -1,6 +1,5 @@
-<div class="bg-dark" style="text-align:center;color: #fff">  
-    <select #langSelect (change)="changeLang(langSelect.value)">  
-        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>  
-    </select>  
-  </div>  
- 
+<div class="bg-warning text-white translate">
+    <select #langSelect (change)="changeLang(langSelect.value)" class="translate-button text-white bg-dark">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+    </select>
+  </div>

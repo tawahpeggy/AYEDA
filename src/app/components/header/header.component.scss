@@ -1,0 +1,25 @@
+.translate{
+  padding:.2rem;
+  text-align: right;
+}
+.translate-button{
+  display: inline-block;
+  text-decoration: none;
+  padding: .4rem .4rem;
+  border: yellow 2px white;
+  opacity: 0;
+  animation-name:btn ;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  transition-duration:1s ;
+  transition-property: transform;
+  border-radius: .5rem;
+
+}
+@keyframes btn {
+  0%{opacity: 0;}
+  100%{opacity:1;}
+}
+  .btn:hover{
+    cursor: pointer;
+}
