@@ -1,5 +1,40 @@
 <div class="bg-warning text-white translate">
-    <select #langSelect (change)="changeLang(langSelect.value)" class="translate-button text-white bg-dark">
+    <select #langSelect (change)="changeLang(langSelect.value)" class="btn-dark text-white p-2 translate-button btn-outline-warning">
         <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
     </select>
   </div>
+  <div class="text-center header-body">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand " href="#"><img src="../../../favicon.ico" width="100rem" class="header"/>  &nbsp; &nbsp; <span class="title-style">{{'AYEDA CAMEROON'|translate}}</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">{{'about_us'|translate}} <span class="sr-only caret">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
