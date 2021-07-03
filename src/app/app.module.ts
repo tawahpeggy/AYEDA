@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 
 
@@ -24,7 +25,8 @@ export function createTranslateLoader(http: HttpClient) {
     AppComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

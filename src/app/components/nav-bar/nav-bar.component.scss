@@ -1,0 +1,58 @@
+.btn:hover{
+  cursor: pointer;
+}
+.header{
+border-radius: 50%;
+box-shadow: 5px 5px 5px rgb(83, 81, 81);
+}
+.header-body{
+background-color: #333;
+}
+.title-style{
+background: -webkit-linear-gradient(white,yellow);
+-webkit-background-clip: text;
+background-clip:text;
+-webkit-text-fill-color: transparent;
+font-size: 1.2rem;
+
+}
+
+.title-style:hover{
+background: -webkit-linear-gradient(yellow,black);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav-linkas{
+  font-size: .9rem;
+  color: yellow;
+  margin: 3px;
+  font-family: 'fantasy';
+}
+.nav-linkas:hover{
+  color: white;
+}
+.dropdown-menu{
+  background-color: #333;
+  text-align: center;
+  font-size: .8rem;
+  box-shadow: grey 5px 3px;
+}
+.dropdown-item{
+  color: yellow;
+  padding: 1.2rem;
+
+}
+.dropdown-item:hover{
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+

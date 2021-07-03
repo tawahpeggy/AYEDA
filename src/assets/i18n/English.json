@@ -1,12 +1,15 @@
 {
-    "username": "UserName",
-    "Addemployee": "Add-employee",  
-    "Name": "Name",  
-    "Email": "Email",  
-    "PhoneNo": "Phone No",  
-    "Submit": "Submit",  
-    "Cancel": "Cancel",  
-    "Home": "Home",  
-    "Employee": "Employee",  
-    "EmployeeList": "Employee List"  
+   "brand_name":"AYEDA CAMEROON",
+   "home":"HOME",
+   "about_us":"ABOUT US",
+   "about-AYEDA":"ABOUT AYEDA",
+   "about_founder":"ABOUT FOUNDER",
+   "about_members":"ABOUT MEMBERS",
+   "yearly_report":"YEARLY REPORT",
+   "projects":"PROJECTS",
+   "contact_us":"CONTACT US",
+   "donate":"DONATE",
+   "sponsor":"SPONSOR",
+   "gallery":"GALLERY",
+   "fresh_news":"FRESH NEWS"
 }
