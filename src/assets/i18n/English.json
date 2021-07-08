@@ -14,12 +14,22 @@
    "fresh_news":"FRESH NEWS",
    "connect_with_us":"Connect with Us",
    "join_ayeda":"JOIN AYEDA",
-   "email":"enter email to signup for updates",
+   "footer_email":"enter email to signup for updates",
    "join":"Join",
    "slogan":"Youths Helping Others",
    "policies and disclaimers":"Policies and Disclaimers",
    "copy_right":"Copy Right",
-   "address":"Buea South West Region Cameroon"
+   "address":"Buea South West Region Cameroon",
+   "name":"Full Name",
+   "email":"Email",
+   "phone_number":"Phone number",
+   "message":"Message",
+   "how_should_we_address_you":"How should we call you??",
+   "disruption_starts_here._so_how_can_we_help???":"Disruption starts here. So how can we help???",
+   "lets_start_a_chain":"Lets start a chain",
+   "let us chat,our conversations matter":"Let Us Chat, our Conversations Matter",
+   "so_nothing_gets_lost_in_transmission":"So northing gets lost in transmission"
+
 
 
 

@@ -12,6 +12,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CaroselComponent } from './components/carosel/carosel.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -28,18 +30,20 @@ export function createTranslateLoader(http: HttpClient) {
     FooterComponent,
     HeaderComponent,
     NavBarComponent,
-    CaroselComponent
+    CaroselComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
-      loader: { 
+      loader: {
           provide: TranslateLoader,
           useFactory: (createTranslateLoader),
           deps: [HttpClient]
-       }    
+       }
       })
   ],
   providers: [  ],

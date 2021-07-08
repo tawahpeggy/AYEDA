@@ -1,0 +1,31 @@
+.container-fluid {
+  background: url(../../../assets/images/pexels-jonathan-borba-3316924.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 70vh;
+}
+ .talk{
+border: 2px yellow solid;
+}
+.head{
+  color: yellowgreen;
+}
+.tex{
+  color: black;
+  padding: 7rem;
+}
+.contact-card{
+  background-color: #333;
+  margin-top:1rem 0 1rem 0;
+  color: yellow;
+  text-align: center;
+
+
+  border-radius: 5%;
+}
+input,textarea {
+  padding:4px;
+  border:2px solid yellow;
+  -webkit-border-radius: 5px;
+  border-radius: 50px;  border:0 none;
+
+}

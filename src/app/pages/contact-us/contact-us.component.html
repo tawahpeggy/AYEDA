@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class="container-fluid pb-5">
+  <div class="row">
+    <div class="col-sm-5 tex">
+      <h1>{{'contact_us'|translate}}</h1>
+    </div>
+    <div class="col-sm-6 mt-5 contact-card">
+<h4 class="p-2">{{'let us chat,our conversations matter'|translate}}</h4>
+  <form [formGroup]="myForm">
+    <!-- value :{{myForm.value | json}}<hr/> -->
+    <p>
+          <label for="name">{{'name'|translate}} :</label><br/>
+          <input placeholder="{{'how_should_we_address_you'|translate}}" value="name" type="text" formControlName="name">
+      </p>
+      <p>
+          <label for="email">{{'email'|translate}} :</label><br/>
+          <input placeholder="{{'lets_start_a_chain'|translate}}" value="email" type="email" formControlName="email">
+      </p>
+      <p>
+        <label for="phoneNumber">{{'phone_number'|translate}} :</label><br/>
+        <input value="phoneNumber" placeholder="{{'so_nothing_gets_lost_in_transmission'|translate}}" type="number" formControlName="phoneNumber">
+    </p>
+    <p>
+      <label for="message">{{'message'|translate}} :</label><br/>
+      <textarea value="message" placeholder="{{'disruption_starts_here._so_how_can_we_help???'|translate}}" type="text" formControlName="message"></textarea>
+  </p>
+      <p>
+          <button class="btn btn-warning" type="submit" [disabled]="!myForm.valid">Submit</button>
+      </p>
+  </form>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+<app-footer></app-footer>
