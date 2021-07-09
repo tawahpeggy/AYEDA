@@ -14,6 +14,9 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CaroselComponent } from './components/carosel/carosel.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AboutCeoComponent } from './pages/about-ceo/about-ceo.component';
+import { AboutAyedaComponent } from './pages/about-ayeda/about-ayeda.component';
+import { AboutBoardComponent } from './pages/about-board/about-board.component';
 
 
 
@@ -31,7 +34,10 @@ export function createTranslateLoader(http: HttpClient) {
     HeaderComponent,
     NavBarComponent,
     CaroselComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AboutCeoComponent,
+    AboutAyedaComponent,
+    AboutBoardComponent
   ],
   imports: [
     BrowserModule,
