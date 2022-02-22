@@ -17,6 +17,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutCeoComponent } from './pages/about-ceo/about-ceo.component';
 import { AboutAyedaComponent } from './pages/about-ayeda/about-ayeda.component';
 import { AboutBoardComponent } from './pages/about-board/about-board.component';
+import { LoginComponent } from './pages/Authentication/login/login.component';
+import { LogoutComponent } from './pages/Authentication/logout/logout.component';
+import { RegisterComponent } from './pages/Authentication/register/register.component';
 
 
 
@@ -37,7 +40,10 @@ export function createTranslateLoader(http: HttpClient) {
     ContactUsComponent,
     AboutCeoComponent,
     AboutAyedaComponent,
-    AboutBoardComponent
+    AboutBoardComponent,
+    LoginComponent,
+    LogoutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

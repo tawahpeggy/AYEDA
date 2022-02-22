@@ -2,5 +2,8 @@
     <select #langSelect (change)="changeLang(langSelect.value)" class="btn-dark text-white p-2 translate-button btn-outline-warning">
         <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
     </select>
+    <button routerLink="/register" class="btn-dark">{{'register'|translate}}</button>
+    <button routerLink="/login" class="btn-dark">{{'login'|translate}}</button>
+    <!-- <button routerLink="/logout" class="btn-dark">{{'logout'|translate}}</button> -->
   </div>
  <app-nav-bar></app-nav-bar>
