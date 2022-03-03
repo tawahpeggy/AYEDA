@@ -4,7 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Description
 AYEDA(Africans Youths Empowerment and Development Association) is an organisation made up of youths that came together to form small schools to teach technical skills such as Fashion Design, Woodwork, Electricity, Building Construction and many more, to children and youths especially those who were and are still affected by the Anglophone crises which started in 2016 till date in cameroon.
-![ayeda home page](https://github.com/[tawahpegy]/[AYEDA]/blob/[master]/ayeda-home.png?raw=true)
 
 
 ## Development server
