@@ -4,7 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Description
 AYEDA(Africans Youths Empowerment and Development Association) is an organisation made up of youths that came together to form small schools to teach technical skills such as Fashion Design, Woodwork, Electricity, Building Construction and many more, to children and youths especially those who were and are still affected by the Anglophone crises which started in 2016 till date in cameroon.
-![ayeda home page](https://github.com/[tawahpegy]/[AYEDA]/blob/[master]/ayeda-home.png?raw=true)
 
 
 ## Development server
@@ -30,3 +29,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## UI Pages
+
+# Home page ![ayeda-home](https://user-images.githubusercontent.com/40355086/156639290-84c81cae-a114-4b48-8166-9abe0fc49b63.PNG)
+# Contact-us page ![ayeda-contact](https://user-images.githubusercontent.com/40355086/156639236-b3263a2f-b83c-410b-9d6d-57200b892afb.JPG)
+# about-us ![ayeda-about](https://user-images.githubusercontent.com/40355086/156639436-134c5fa6-8d13-4a83-b264-e5a0c3d29617.JPG)
+
+
+
+
